@@ -1,0 +1,329 @@
+@media screen and (max-width: 1400px) {
+  .nav .links {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 100vw !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav p#text, .nav .icons .fa-search {
+    display: none !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+hr {
+  border: 3px lightgray solid;
+  width: 100%;
+  margin: 10px;
+}
+
+.row {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 77.5%;
+  margin: auto;
+}
+
+
+/* NAV BAR */
+.nav {
+  width: 100vw;
+  height: 50px;
+  background: #0c0c0c;
+}
+
+.nav .cnn-logo {
+  width: 60px;
+  height: 60px;
+  background: #CB0000;
+  position: relative;
+  left: 10px;
+  display: inline-block;
+}
+
+.nav img {
+  width: 50px;
+  position: relative;
+  top: 18px;
+}
+
+.nav .links {
+  position: relative;
+  display: inline-block;
+  top: 6px;
+  margin-left: 13px;
+}
+
+.nav p {
+  display: inline-block;
+  font-size: .9em;
+  color: #909090;
+  font-weight: 100;
+}
+
+.nav a, a:visited {
+  text-decoration: none;
+  color: #bfbfbf;
+  font-weight: 100;
+  letter-spacing: .5px;
+}
+
+.nav a:hover {
+  color: white;
+  transition: .3s ease;
+}
+
+.nav .right-text {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  margin-right: 10px;
+  float: right;
+}
+
+.nav .live-tv {
+  border: 1px solid #bfbfbf;
+  display: inline-block;
+  line-height: 23px;
+  padding: 0 10px;
+  -webkit-transition: color .2s,border-color .2s;
+  transition: color .2s,border-color .2s;
+}
+
+.nav .live-tv .icon {
+    background: #c00;
+    border-radius: 10px;
+    display: inline-block;
+    height: 7px;
+    margin: 0 0 2px 5px;
+    vertical-align: middle;
+    width: 7px;
+}
+
+.nav .right-text p#text {
+  margin-left: 5px;
+}
+
+.nav .icons {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.nav .icons i {
+  color: #bfbfbf;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.nav .icons i:hover {
+  color: white;
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+
+/* TOP ROW */
+.top .large {
+  width: 45%;
+  height: 580px;
+  margin: 10px;
+}
+
+.top .large h1 {
+  font-size: 2.3em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.top .large img {
+  margin: 7px 0;
+  width: 100%
+}
+
+.top .small {
+  width: 30%;
+  height: 580px;
+  margin: 10px;
+}
+
+.top .small img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+/* ROWS OF THREE */
+.three {
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.three .third {
+  width: 33.334%;
+  background: lightblue;
+  height: 435px;
+  margin: 10px;
+}
+
+.video .large {
+  width: 70%;
+  height: 750px;
+  background-color: lightgreen;
+  margin: 10px;
+}
+
+.video .small {
+  width: 30%;
+  height: 750px;
+  background-color: lavender;
+  margin: 10px;
+}
+
+.long .third {
+  height: 650px;
+}
+
+.short .third {
+  height: 300px;
+  margin-bottom: 20px;
+  background-color: lightyellow;
+}
+
+.third img {
+  width: 100%;
+}
+
+.smallimage-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  img {
+    width: 20px;
+  }
+}
+
+
+
+/* ROWS OF FOUR */
+.four .fourth {
+  width: 25%;
+  margin: 10px;
+  height: 200px;
+  background-color: turquoise;
+}
+
+
+/* FULL SCREEN ROWS */
+.full-screen {
+  width: 100vw;
+  background: #1A1A1A;
+}
+
+.full-screen hr {
+  border: 3px #CC0000 solid;
+  width: 100%;
+  margin: 10px 10px 0 10px;
+}
+
+
+/* BOTTOM ROW */
+.bottom .large {
+  width: 60%;
+  margin: 10px;
+  background: pink;
+  height: 400px;
+}
+
+.bottom .small {
+  width: 60%;
+  margin: 10px;
+  background: green;
+  height: 400px;
+}
+
+
+/* FOOTER */
+.footer {
+  background: black;
+  height: 900px;
+}
+
+
+
+
+
+
+
+/* WHOLE DOCUMENT */
+.article-container {
+  margin-top: 5px;
+}
+
+.article-name {
+  padding: 7px 0;
+  border-top: 1px #e4e2e2 solid;
+  line-height: 120%;
+}
+
+.article-name a {
+  text-decoration: none;
+  color: #262626;
+  font-weight: 100;
+  font-size: .95em;
+}
+
+.article-name a:hover {
+  color: #CB0000;
+  transition: .3s ease;
+}
+
+.section-header {
+  width: 100%;
+  background: #F2F2F2;
+  padding: 8px 0 8px 8px;
+  color: #404040;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h1.thin {
+  font-weight: 100;
+}
+
+.light-gold {
+  background: #F8F4E9;
+}
+
+.gold {
+  color: #C3A354;
+}
