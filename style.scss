@@ -251,7 +251,8 @@ hr {
 }
 
 .full-screen hr {
-  border: 3px #CC0000 solid;
+  border-top: 5px #CC0000 solid;
+  border-bottom: 5px #CC0000 solid;
   width: 100%;
   margin: 10px 10px 0 10px;
 }
